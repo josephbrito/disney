@@ -1,0 +1,288 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: #040714;
+}
+
+.header {
+    height:8vh;
+    padding:5px 50px;
+    position: sticky;
+    top:0;
+    background:rgba(3,5,14,.7);
+}
+
+.nav-menu {
+    display:none;
+}
+
+.nav-list {
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width:80px;
+}
+
+.nav-buttons {
+    height:100%;
+}
+
+.sign-now {
+    background: #0063E5;
+    color:white;
+    height:100%;
+    border:none;
+    padding:0 15px;
+    border-radius:6px;
+    font-size:1.2rem;
+    transition:.4s;
+}
+
+.join {
+    height:100%;
+    background: black;
+    color:white;
+    border:1px solid white;
+    padding:0 20px;
+    border-radius:8px;
+    font-size:1rem;
+    transition:.4s
+}
+
+.main {
+    height:100vh;
+    background: url('../images/bg.jpg')no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding:0 50px;
+}
+
+.sec-main {
+    height: 100%;
+    display:flex;
+    align-items: center;
+    
+}
+
+.container {
+    max-width:500px;
+    color:white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container-content {
+    width:100%;
+}
+
+.combo-img {
+    width:100%;
+}
+
+.combo-img img {
+    width:100%;
+}
+
+.container-content h1 {
+    margin-bottom:30px;
+}
+
+.pay-btn {
+    margin:30px 0;
+    height:70px;
+    width:100%;
+    background:#0063E5;
+    color:white;
+    border:none;
+    font-size:1.2rem;
+    border-radius: 3px;
+    transition:.4s;
+}
+
+button {
+    cursor:pointer;
+}
+
+.small {
+    color:#57585F;
+    font-size: .875rem;
+    margin-bottom:20px;
+}
+
+.link-sign {
+    color:#DEDEDF;
+    font-size: 1.3rem;
+}
+
+.mouth-p {
+    margin:10px 0;
+    color:#848488;
+    font-size: 1.2rem;
+}
+
+.join:hover {
+    background: white;
+    color:black;
+}
+
+.sign-now:hover, .pay-btn:hover {
+    background:#006eff;
+}
+
+.watch {
+    height:100vh;
+}
+
+.container-watch {
+    height:100%;
+    color:white;
+    font-family: sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    flex-wrap: wrap;
+}
+
+.watch-img {
+    max-width:600px;
+}
+
+.watch-img img {
+    width:100%;
+}
+
+.content-watch {
+    max-width:500px;
+    font-size:1.2rem;
+    line-height: 1.7rem;
+}
+
+.content-watch h1 {
+    margin-bottom: 30px;
+    font-size: 2.3rem;
+}
+
+.more-watch {
+    height:100vh;
+}
+
+.container-more {
+    height:100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.more-img {
+    max-width:600px;
+}
+
+.more-img img {
+    width:100%;
+}
+
+.content-more {
+    color:#848488;
+    font-family: sans-serif;
+    max-width:550px;
+    font-size: 1.2rem;
+}
+
+.sign-comb {
+    margin-top:20px;
+    background: #0063E5;
+    color:white;
+    border:none;
+    padding:20px 30px;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.sec-download {
+    height:100vh;
+}
+
+.container-download {
+    height:100%;
+    display:flex;
+    justify-content: center;
+}
+
+.content-img {
+    height:100%;
+    width:90%;
+    background: url('../images/lion.png');
+    background-size: cover;
+    color:#57585F;
+    font-family: sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.content-text-img {
+    max-width: 550px;
+    font-size:1.1rem;
+    line-height: 1.7rem;
+}
+
+.content-text-img h1{
+    font-size:2rem;
+    color:white;
+    margin-bottom:30px;
+}
+
+.devices {
+    height:100vh;
+    font-family: sans-serif;
+    color:white;
+    text-align: center;
+}
+
+.devices h1 {
+    font-size: 2.5rem;
+
+}
+
+.container-devices {
+    height:70%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tv-img, .pc-img, .mobile-img, .console-img {
+    max-width:300px;
+}
+
+.tv-img img, .pc-img img, .mobile-img img, .console-img img {
+    width:100%;
+}
+
+.list {
+    list-style: none;
+    text-align: center;
+}
+
+.list li {
+    margin-top:8px;
+    color:#848488;
+}
+
+.about-tv, .about-pc, .about-mobile, .about-console {
+    text-align:center;
+}
+
+.about-tv h1, .about-pc h1, .about-mobile h1, .about-console h1 {
+    font-size: 1.5rem;
+}
